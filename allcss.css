@@ -1,0 +1,134 @@
+body{
+    width: 100%;
+}
+#navbar ul li{
+    margin: 1px;
+}
+#navbar li a{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 10px;
+}
+#navbar li:hover{
+    background-color: darkblue;
+    border-radius: 8px;
+}
+#navbar li a:hover{
+    color: white;
+    font-size: 32px;
+}
+#navbar li  i{
+    font-size: 35px;
+    text-align: center;
+}
+.active{
+    background-color: darkblue;
+    border-radius: 8px;
+}
+#navbar .active a{
+    color: white;
+}
+.right{
+    float: right;
+    margin: 1px 20px;
+}
+#navbarSupportedContent{
+    font-size: 40px;
+}
+#addressbox{
+    padding: 10px;
+    padding-top: 30px;
+}
+#addressbox .row{
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+}
+#addressbox .row .col-md-3 h5{
+    text-align: center;
+    font-size: 35px;
+    padding: 35px;
+    font-family: 'Rubik', sans-serif;
+}
+#addressbox .row .col-md-9 p{
+    text-align:left;
+    font-size: 25px;
+    padding:15px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.carousel-control-next,
+.carousel-control-prev , .carousel-indicators{
+    filter: invert(100%);
+}
+#imgsider{
+    padding: 10px;
+}
+.hr-divider{
+    color: darkblue;
+    margin: 5rem;
+}
+.featurette-heading{
+    font-size: 40px;
+    text-align:left;
+    font-family: 'Rubik', sans-serif;
+}
+.lead {
+    font-size: 28px;
+    font-weight: 300;
+    font-family: 'PT Sans', sans-serif;
+}
+#product{
+    padding-top: 40px;
+}
+#product img{
+    width: 130%;
+}
+#product .row hr{
+    color: darkblue;
+}
+#product h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    padding: 20px;
+}
+#product p{
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
+}
+/*       youtube video             */
+.heading h2{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    border-radius: 10px;
+    font-size: 60px;
+    margin: 2px;
+    padding:20px;
+}
+/*        footer      */
+.footer{
+    background-color: darkblue;
+    color: white;
+}
+.footer #footer-brand-name h1{
+    text-align: center;
+    width: 100%;
+    font-size: 60px;
+}
+.footer-heading{
+    text-align: center;
+}
+.footer-details{
+    text-align: left;
+    font-size: 30px;
+    padding: 20px;
+}
+.footer-details ul li{
+    list-style-type: none;
+    padding: 20px;
+}
